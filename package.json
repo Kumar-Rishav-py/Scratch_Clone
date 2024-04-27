@@ -21,9 +21,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && npx craco start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && npx craco build",
-    "test": "npx craco test",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && craco start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
